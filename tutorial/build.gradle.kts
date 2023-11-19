@@ -31,4 +31,7 @@ dependencies {
     implementation("com.google.code.gson:gson:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     androidTestImplementation("androidx.test.ext:junit-ktx:1.1.4")
+
+    androidTestImplementation("com.kaspersky.android-components:kaspresso:1.5.3")
+    androidTestUtil("androidx.test:orchestrator:1.4.2")
 }
